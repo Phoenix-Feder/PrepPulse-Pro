@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 PrepPulse Pro – AI-Powered Competitive Exam Preparation Platform
 
 > A full-stack Next.js 14 platform for Indian competitive exam preparation with AI study coaching, syllabus tracking, mock analytics, and personalized study planning.
@@ -1099,3 +1100,7 @@ MIT — Free to use for educational purposes.
 ---
 
 *Built with ❤️ as a Final Year Major Project | PrepPulse Pro © 2024*
+=======
+# PrepPulse-Pro
+AI-powered exam preparation tracker with Firebase authentication, dual AI (Gemini + Groq), and automated email reminders. Built with Vite and deployed on Vercel.
+>>>>>>> b02635cd7ebacbb069574ccecd68d0e160d3e2d9

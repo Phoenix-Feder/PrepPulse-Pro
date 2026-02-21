@@ -68,7 +68,7 @@ User: ${message}
         const result = await model.generateContent({
           contents: [{ role: "user", parts: [{ text: fullPrompt }] }],
           generationConfig: {
-            maxOutputTokens: 500, // 🔥 reduced from 1500
+            maxOutputTokens: 1000, // 🔥 reduced from 1500
             temperature: 0.4,     // 🔥 more deterministic = faster
           },
         })
@@ -100,7 +100,7 @@ User: ${message}
         const completion = await groq.chat.completions.create({
           model: 'llama-3.1-8b-instant',
           messages: groqMessages as any,
-          max_tokens: 500,      // 🔥 reduced
+          max_tokens: 1000,      // 🔥 reduced
           temperature: 0.4,
         })
 
